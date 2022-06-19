@@ -84,6 +84,7 @@
     ],
     "predictionType": "BINARY_CLASSIFICATION",
     "pinnedMetrics": [],
+    "xLabel": "evaluation:date",
     "yLabels": [
       "model:name",
       "evaluationDataset:dataset-name"
@@ -94,18 +95,19 @@
       "model:name",
       "evaluationDataset:dataset-name"
     ],
-    "graphStyle": "LINE",
+    "graphStyle": "BAR",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
     "disabledMERunIds": []
   },
+  "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
-      "login": "sean"
+      "login": "admin"
     },
-    "lastModifiedOn": 1648074097737
+    "lastModifiedOn": 1655659828354
   },
   "creationTag": {
     "versionNumber": 0,
