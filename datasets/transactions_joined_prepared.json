@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655660180347
+    "lastModifiedOn": 1655660307004
   },
   "creationTag": {
     "versionNumber": 0,
@@ -263,7 +263,59 @@
   },
   "metricsChecks": {
     "runOnBuild": false,
-    "checks": [],
+    "checks": [
+      {
+        "metricId": "col_stats:MIN:card_age",
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 0.0,
+        "minimumEnabled": true,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": false,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range",
+          "label": "min card age"
+        },
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "metricId": "col_stats:MAX:purchase_amount",
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 48000.0,
+        "minimumEnabled": false,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": true,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range",
+          "label": "max purchase"
+        },
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "metricId": "col_stats:MEAN:card_fico_score",
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "softMinimum": 525.0,
+        "softMaximum": 650.0,
+        "minimumEnabled": false,
+        "maximumEnabled": false,
+        "softMinimumEnabled": true,
+        "softMaximumEnabled": true,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range",
+          "label": "FFICO score in normal range"
+        },
+        "computeOnBuildMode": "PARTITION"
+      }
+    ],
     "displayedState": {
       "partition": "NP",
       "checks": []
