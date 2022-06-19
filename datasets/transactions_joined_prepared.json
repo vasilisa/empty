@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655660314561
+    "lastModifiedOn": 1655660324438
   },
   "creationTag": {
     "versionNumber": 0,
@@ -311,7 +311,7 @@
         "type": "numericRange",
         "meta": {
           "name": "Value in range",
-          "label": "FFICO score in normal range"
+          "label": "FICO score in normal range"
         },
         "computeOnBuildMode": "PARTITION"
       }
