@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655660103467
+    "lastModifiedOn": 1655660135999
   },
   "creationTag": {
     "versionNumber": 0,
@@ -254,7 +254,10 @@
       "columns": [],
       "metrics": [
         "basic:COUNT_COLUMNS",
-        "records:COUNT_RECORDS"
+        "records:COUNT_RECORDS",
+        "col_stats:MAX:purchase_amount",
+        "reporting:METRICS_COMPUTATION_DURATION",
+        "col_stats:MIN:card_age"
       ]
     }
   },
