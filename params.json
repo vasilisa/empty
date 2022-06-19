@@ -32,8 +32,26 @@
       "exportGitRepository": false,
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
-      "includedDatasetsData": [],
-      "includedSavedModels": [],
+      "includedDatasetsData": [
+        {
+          "name": "transactions",
+          "type": "UploadedFiles"
+        },
+        {
+          "name": "merchant_info",
+          "type": "UploadedFiles"
+        },
+        {
+          "name": "cardholder_info",
+          "type": "UploadedFiles"
+        }
+      ],
+      "includedSavedModels": [
+        {
+          "id": "S7Ap55jW",
+          "name": "Predict authorized_flag (binary)"
+        }
+      ],
       "includedModelEvaluationStores": [],
       "includedManagedFolders": [],
       "shareAllInputDatasets": false
@@ -217,11 +235,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 68,
+    "versionNumber": 69,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655654747408
+    "lastModifiedOn": 1655662473285
   },
   "creationTag": {
     "versionNumber": 0,
