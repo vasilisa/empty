@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655660135999
+    "lastModifiedOn": 1655660180347
   },
   "creationTag": {
     "versionNumber": 0,
@@ -256,8 +256,8 @@
         "basic:COUNT_COLUMNS",
         "records:COUNT_RECORDS",
         "col_stats:MAX:purchase_amount",
-        "reporting:METRICS_COMPUTATION_DURATION",
-        "col_stats:MIN:card_age"
+        "col_stats:MIN:card_age",
+        "col_stats:MEAN:card_fico_score"
       ]
     }
   },
