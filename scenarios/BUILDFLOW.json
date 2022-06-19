@@ -3,18 +3,18 @@
   "name": "Build Flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 2,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1655658597554
-  },
-  "versionTag": {
     "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1655658600882
+  },
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1655660395277
   },
   "checklists": {
     "checklists": []
@@ -29,6 +29,24 @@
   "reporters": [],
   "params": {
     "steps": [
+      {
+        "id": "comp_metrics",
+        "type": "compute_metrics",
+        "name": "Compute metrics on transactions",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "computes": [],
+          "proceedOnFailure": false
+        }
+      },
       {
         "id": "build_0_true_e_Rci28BcL",
         "type": "build_flowitem",
