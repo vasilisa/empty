@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655660324438
+    "lastModifiedOn": 1655660334522
   },
   "creationTag": {
     "versionNumber": 0,
@@ -318,11 +318,7 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": [
-        "max purchase",
-        "FFICO score in normal range",
-        "min card age"
-      ]
+      "checks": []
     }
   },
   "customFields": {}
