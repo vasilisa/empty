@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655659945911
+    "lastModifiedOn": 1655659962394
   },
   "creationTag": {
     "versionNumber": 0,
@@ -231,7 +231,23 @@
         ],
         "type": "valueSet",
         "meta": {
-          "name": "Value in set"
+          "name": "Value in set",
+          "label": "column count"
+        },
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 0.0,
+        "minimumEnabled": false,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": false,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range"
         },
         "computeOnBuildMode": "PARTITION"
       }
