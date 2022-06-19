@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1655659992117
+    "lastModifiedOn": 1655660010862
   },
   "creationTag": {
     "versionNumber": 0,
@@ -256,7 +256,10 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": []
+      "checks": [
+        "Value in set of basic:COUNT_COLUMNS",
+        "Over 10k records"
+      ]
     }
   },
   "customFields": {
