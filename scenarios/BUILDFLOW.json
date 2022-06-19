@@ -2,20 +2,19 @@
   "type": "step_based",
   "name": "Build Flow",
   "active": false,
-  "runAsUser": "admin",
   "creationTag": {
-    "versionNumber": 1,
-    "lastModifiedBy": {
-      "login": "sean"
-    },
-    "lastModifiedOn": 1645078641330
-  },
-  "versionTag": {
     "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1655658597554
+  },
+  "versionTag": {
+    "versionNumber": 3,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1655658600882
   },
   "checklists": {
     "checklists": []
