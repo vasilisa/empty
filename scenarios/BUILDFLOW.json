@@ -3,18 +3,18 @@
   "name": "Build Flow",
   "active": false,
   "creationTag": {
-    "versionNumber": 7,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1655660556285
-  },
-  "versionTag": {
     "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1655660618230
+  },
+  "versionTag": {
+    "versionNumber": 9,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1655660896428
   },
   "checklists": {
     "checklists": []
@@ -41,6 +41,7 @@
         }
       },
       "id": "3XDb73WY",
+      "name": "Build Flow reporter",
       "runConditionEnabled": true,
       "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
       "phase": "END"
